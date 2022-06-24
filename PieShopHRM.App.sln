@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PieShopHRM.App", "PieShopHRM.App\PieShopHRM.App.csproj", "{D5E4BF79-B3AE-4D3F-9F99-CEE02C78B19A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PieShopHRM.App", "PieShopHRM.App\PieShopHRM.App.csproj", "{D5E4BF79-B3AE-4D3F-9F99-CEE02C78B19A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PieShopHRM.Shared", "PieShopHRM.Shared\PieShopHRM.Shared.csproj", "{2D9C5437-2D08-4455-BC0A-68A24870D77C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PieShopHRM.Shared", "PieShopHRM.Shared\PieShopHRM.Shared.csproj", "{2D9C5437-2D08-4455-BC0A-68A24870D77C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -19,7 +19,7 @@ namespace PieShopHRM.Api.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("PieShopHRM.Shared.Country", b =>
+            modelBuilder.Entity("BethanysPieShopHRM.Shared.Country", b =>
                 {
                     b.Property<int>("CountryId")
                         .ValueGeneratedOnAdd()
@@ -81,7 +81,7 @@ namespace PieShopHRM.Api.Migrations
                         });
                 });
 
-            modelBuilder.Entity("PieShopHRM.Shared.Employee", b =>
+            modelBuilder.Entity("BethanysPieShopHRM.Shared.Employee", b =>
                 {
                     b.Property<int>("EmployeeId")
                         .ValueGeneratedOnAdd()
@@ -195,7 +195,7 @@ namespace PieShopHRM.Api.Migrations
                         });
                 });
 
-            modelBuilder.Entity("PieShopHRM.Shared.JobCategory", b =>
+            modelBuilder.Entity("BethanysPieShopHRM.Shared.JobCategory", b =>
                 {
                     b.Property<int>("JobCategoryId")
                         .ValueGeneratedOnAdd()
@@ -257,15 +257,15 @@ namespace PieShopHRM.Api.Migrations
                         });
                 });
 
-            modelBuilder.Entity("PieShopHRM.Shared.Employee", b =>
+            modelBuilder.Entity("BethanysPieShopHRM.Shared.Employee", b =>
                 {
-                    b.HasOne("PieShopHRM.Shared.Country", "Country")
+                    b.HasOne("BethanysPieShopHRM.Shared.Country", "Country")
                         .WithMany()
                         .HasForeignKey("CountryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("PieShopHRM.Shared.JobCategory", "JobCategory")
+                    b.HasOne("BethanysPieShopHRM.Shared.JobCategory", "JobCategory")
                         .WithMany()
                         .HasForeignKey("JobCategoryId")
                         .OnDelete(DeleteBehavior.Cascade)

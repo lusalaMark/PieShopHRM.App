@@ -1,5 +1,5 @@
 ﻿using PieShopHRM.Api.Models;
-using PieShopHRM.Shared;
+using PieShopHRM.Shared.Shared;
 using Microsoft.AspNetCore.Mvc;
 
 namespace PieShopHRM.Api.Controllers
